@@ -16,7 +16,7 @@ FileManager.FileManager.Serialize<Settings>("settings.xml", settings);
 Deserializing:
 
 ```csharp
-    var settings = FileManager.FileManager.Deserialize<Settings>("settings.xml");
+var settings = FileManager.FileManager.Deserialize<Settings>("settings.xml");
 ```
 
 Nuget
